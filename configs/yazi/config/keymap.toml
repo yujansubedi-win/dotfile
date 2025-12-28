@@ -1,0 +1,5 @@
+[mgr]
+append_keymap  = [
+	# Goto
+	{ on = [ "g", "y" ],       run = "cd ~/source/repos/",                       desc = "Go to the ~/source/repos/" },
+]

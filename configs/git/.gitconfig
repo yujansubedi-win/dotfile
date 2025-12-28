@@ -1,0 +1,26 @@
+[core]
+	editor = nvim
+	compression = 6
+	preloadindex = true
+	autocrlf = input
+
+[push]
+	default = current
+	followTags = true
+	autoSetupRemote = true
+
+[pull]
+	default = current
+	rebase = true
+
+[rebase]
+	autoStash = true
+	missingCommitsCheck = warn
+
+[merge]
+	conflictStyle = diff3
+	tool = nvimdiff
+
+[status]
+	showStash = true
+	; branch = true
